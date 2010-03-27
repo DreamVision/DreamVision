@@ -1,0 +1,128 @@
+* {
+	font-family: "Hoefler Text", Constantia, Palatino, "Palatino Linotype", "Book Antiqua", Georgia, serif;
+	font-size: 16px;
+}
+
+body {
+	margin: 0 auto;
+	background-color: #DBDBDB;
+	text-align: center;
+}
+
+h1 {
+	font-size: 30px;
+	text-shadow: 1px 2px 1px #999999;
+}
+
+#content {
+	padding: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 660px;
+	background: -webkit-gradient(linear, 0% 0%, 100% 0%, from(#DBDBDB), to(#DBDBDB), color-stop(.2,#808080));
+	background: -moz-linear-gradient(100% 0% 90deg,#DBDBDB, #DBDBDB, #808080 25%);
+}
+
+label {
+	margin:10px;
+}
+
+#input_field {
+	width: 600px;
+	font-size: 18px;
+	margin: 10px;
+	padding: 10px;
+	border: 3px solid #999;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	border-radius: 15px;
+	-moz-box-shadow: 4px 4px 4px #333333;
+	-webkit-box-shadow: 4px 4px 4px #333333;
+	box-shadow: 4px 4px 4px #333333;
+	display: block;
+	text-shadow: 1px 1px 1px #999999;
+}
+
+#title_input_field {
+	padding: 3px;
+}
+
+#submit_button {
+	font-size: 25px;
+	color: #FFFFFF;
+	margin: 10px;	
+	width: 350px;
+	height: 80px;
+	background: #27a241;
+	border: 1px solid #000;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	cursor: pointer;
+	-moz-box-shadow: 10px 10px 10px #333333;
+	-webkit-box-shadow: 10px 10px 10px #333333;
+	box-shadow: 10px 10px 10px #333333;
+}
+
+#dream {
+	margin: 10px;
+	padding: 10px;
+	background: #EEE;
+	width: 600px;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#999999), to(#EEEEEE));
+	background: -moz-linear-gradient(19% 75% 90deg,#999999, #EEEEEE, #C7C7C7 100%);
+	background-image: url(../_img/double_quote_in.png);
+	background-repeat: no-repeat;
+	border: 3px solid #999;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	border-radius: 15px;
+	-moz-box-shadow: 10px 10px 10px #333333;
+	-webkit-box-shadow: 10px 10px 10px #333333;
+	box-shadow: 10px 10px 10px #333333;
+}
+
+#dream .content {
+	padding:15px 0;
+}
+
+#dream .background_giver {
+	width: 600px;
+	background: url(../_img/double_quote_out.png) no-repeat bottom left;
+}
+
+#dream .date {
+	color:#666;
+}
+
+.comment_block {
+	border-top: 1px solid #FFFFFF;
+	margin: 6px;
+}
+
+.comment_block p {
+	font-size: 14px;
+	color: #333;
+}
+
+#comment_input {
+	padding: 5px;
+}
+
+#footer {
+	padding: 10px;
+	color: #FFFFFF;
+	background-color: rgba(0,0,0,.6);
+}
+
+#footer a, .comment_link {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+#what {
+	position:relative;
+	top:-170px;
+	padding: 10px;
+	background-color: rgb(255,255,255);
+}
